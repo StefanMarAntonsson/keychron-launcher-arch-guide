@@ -25,7 +25,9 @@ Before running the hardware configuration, you must enable WebHID support in you
 2. Navigate to: chrome://flags/#enable-experimental-web-platform-features
 3. Set **Experimental Web Platform features** to **Enabled**.
 4. Click **Relaunch** at the bottom of the browser.
-
+> Yeah, I didn't do that because I forgot but it worked fine. I used Ungoogled Chromium.‎ ‎ ‎ ‎ ‎ ‎ ‎
+###### LeeLupton
+---
 ## 2. Usage
 
 This script scans your USB tree for any device containing the name "Keychron", extracts its unique Vendor ID (VID) and Product ID (PID), and automatically generates the necessary udev rules.
