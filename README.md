@@ -1,4 +1,5 @@
-# Fix WebHID connection for Keychron Q5 HE on Arch Linux (Chromium)
+ []([https://www.gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0))
+ # Fix WebHID connection for Keychron Q5 HE on Arch Linux (Chromium)
 
 This is a minimal, step-by-step guide for the exact fix that worked.
 
