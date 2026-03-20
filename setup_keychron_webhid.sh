@@ -25,9 +25,10 @@ while read -r line; do
     
     echo "Configuring WebHID access for Device ID: $vid:$pid"
     
-    # Generate the udev rule content
+    #### Shoutout to @StefanMarAntonsson for this code ####
     rule_content="# Dynamically generated WebHID rule for Keychron ($vid:$pid)
 KERNEL==\"hidraw*\", SUBSYSTEM==\"hidraw\", ATTRS{idVendor}==\"$vid\", ATTRS{idProduct}==\"$pid\", MODE=\"0666\", TAG+=\"uaccess\", TAG+=\"udev-acl\""
+    #### -------------------------------------------- ####
     
     # Write the rule to the system directory
     echo "$rule_content" | sudo tee "$rule_file" > /dev/null
