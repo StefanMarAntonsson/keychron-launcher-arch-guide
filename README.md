@@ -32,7 +32,7 @@ This script scans your USB tree for any device containing the name "Keychron", e
 
 1. Ensure all your Keychron keyboards are connected via USB (Wired mode).
 2. Run the script:
-```Bash/Zsh
+```Zsh
 ./setup_keychron_webhid.sh
 ```
 4. Once the script finishes, **unplug and replug** your keyboards.
