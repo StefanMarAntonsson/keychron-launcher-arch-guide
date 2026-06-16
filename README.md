@@ -9,7 +9,6 @@
 ![Chromium](https://img.shields.io/badge/Chromium-native-0F70E0?logo=googlechrome&logoColor=white)
 ![QMK](https://img.shields.io/badge/QMK-compatible-blue?logo=qmk&logoColor=white)
 ![VIA](https://img.shields.io/badge/VIA-compatible-9B59B6)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ---
 
